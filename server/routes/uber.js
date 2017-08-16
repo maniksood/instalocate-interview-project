@@ -3,9 +3,9 @@ const router = express.Router();
 var Uber = require('node-uber');
 
 var uber = new Uber({
-  client_id: 'gGUvpawsfqjgoMAY3TfzvdOfzngoW98M',
-  client_secret: 'b_LlMXEOEX6YIsH0nexZ80ihkO1OiewsKCG5VNa5',
-  server_token: 'sl-JjZlL0_OURpywDIQ1C9Zy4UAncaqNv8slbVvG',
+  client_id: '...',
+  client_secret: '...',
+  server_token: '...',
   redirect_uri: 'http://localhost:3000/uber/callback',
   name: 'instalocate interview project',
   language: 'en_US', // optional, defaults to en_US
